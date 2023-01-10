@@ -7,7 +7,7 @@
 
 ## 🔗Links
 
-Pagina : [Encriptador](https://nickamc.github.io/Encrypt-Challenge-Oracle-ONE)
+Pagina : [Encriptador](https://nickamc.github.io/Encrypter-Challenge-Oracle-ONE)
 
 ## Enunciado
 
