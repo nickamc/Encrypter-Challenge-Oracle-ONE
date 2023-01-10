@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/assets/logo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="logo">
+                <img src="./src/assets/logo.svg" alt="alura">
+            </div>
+            <div class="form">
+                <textarea name="" id="textarea" placeholder="Ingrese texto aqui"></textarea>
+                <div class="frame">
+                    <p><img src="./src/assets/question.svg" alt="question"> Solo letras minúsculas y sin acentos</p>
+                    <div class="buttons">
+                        <button id="btn-encrypt" class="btn-encrypt" type="button">Encriptar</button>
+                        <button id="btn-decrypt" class="btn-decrypt" type="button">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./src/assets/doll.svg" alt="muñeco">
+                <h3>Ningún mensaje fue encontrado</h3>
+                <p class="p">Ingresa el text que desees encriptar o descriptar.</p>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./src/index.js"></script>
+</html>
